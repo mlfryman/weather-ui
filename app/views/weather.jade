@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Weather UI Web Form
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    a(href='/') Find current temperature for another location?
+    #container
+      #temperature = temperature
+      #thermometer
+        #mercury(style='background-color:#{color}; height:#{temperature}%;')
+          #pos25
+          #pos50
+          #pos75
